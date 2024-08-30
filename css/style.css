@@ -16,7 +16,7 @@ body {
     color: #efefef;
     text-align: center;
     font-family: "Anton SC", sans-serif;
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 .quote-container {
@@ -36,7 +36,7 @@ body {
     width: 60%;
     text-align: center;
     color: #efefef;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 #new-quote {
