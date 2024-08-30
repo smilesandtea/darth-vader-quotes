@@ -1,0 +1,57 @@
+body {
+    background-color: #1c1c1c;
+    background-image: url("../img/vader-bg.png");
+    background-size: cover;
+    background-position: center;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+#heading {
+    color: #efefef;
+    text-align: center;
+    font-family: "Anton SC", sans-serif;
+    font-size: 4em;
+}
+
+.quote-container {
+    width: 50%;
+    height: 50em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(108, 44, 44, 0.7);
+    /* border: 5px solid rgb(208, 48, 48); */
+    border-radius: 2em;
+    overflow: hidden;
+}
+
+.quote-container p {
+    width: 60%;
+    text-align: center;
+    color: #efefef;
+    font-size: 1.2em;
+}
+
+#new-quote {
+    background-color: #0C0F16;
+    color: #efefef;
+    width: 12em;
+    height: 3em;
+    border: none;
+    border-radius: .5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+#new-quote:hover {
+    background-color: #480c10;
+}
