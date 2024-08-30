@@ -3,6 +3,7 @@ body {
     background-image: url("../img/vader-bg.png");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     font-family: "Roboto", sans-serif;
     display: flex;
     justify-content: center; 
@@ -55,3 +56,11 @@ body {
 #new-quote:hover {
     background-color: #480c10;
 }
+
+/* Mobile Media Query */
+@media only screen and (max-width: 768px) {
+    .quote-container {
+        width: 80%;
+        height: 40em;
+    }
+  }
